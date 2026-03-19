@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Govind Foundation — Farm, Animals & Community</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <img src="images/govind_foundation.png" alt="Govind Foundation" class="nav-logo-img" />
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" onclick="toggleMenu()">&#9776;</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" onclick="closeMenu()">About</a></li>
+        <li><a href="#mission" onclick="closeMenu()">Our Mission</a></li>
+        <li><a href="#programs" onclick="closeMenu()">Programs</a></li>
+        <li><a href="#videos" onclick="closeMenu()">Videos</a></li>
+        <li><a href="#gallery" onclick="closeMenu()">Gallery</a></li>
+        <li><a href="#contact" class="nav-cta" onclick="closeMenu()">Get Involved</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <!-- Replace hero-1.jpg with your cinematic photo -->
+      <img src="images/vlcsnap-2025-05-15-13h01m33s464~2.png" alt="Govind Foundation Farm" class="hero-img" id="heroImg" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">A Place of Peace, Purpose & Life</p>
+      <h1>Govind Foundation</h1>
+      <p class="hero-tagline">Nurturing community, caring for animals, and stewarding the earth — one season at a time.</p>
+      <div class="hero-actions">
+        <a href="#about" class="btn btn-primary">Discover Our Story</a>
+        <a href="#contact" class="btn btn-outline">Get Involved</a>
+      </div>
+    </div>
+    <a href="#about" class="hero-scroll" aria-label="Scroll down">
+      <span class="scroll-arrow">&#8595;</span>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container two-col">
+      <div class="about-image-wrap">
+        <!-- Replace about.jpg with a warm farm photo -->
+        <img src="images/vlcsnap-2025-05-12-09h29m53s689~2.png" alt="Life at Govind Foundation" class="about-img" />
+        <div class="about-badge">Est. with Love &amp; Purpose</div>
+      </div>
+      <div class="about-text">
+        <p class="section-eyebrow">Who We Are</p>
+        <h2>A Community-Focused Nonprofit Rooted in Compassion</h2>
+        <p>Govind Foundation is dedicated to promoting well-being, compassion, and environmental responsibility through programs that serve both people and animals.</p>
+        <p>We host retreats that give members of the public the opportunity to step away from urban life and experience the calm and restorative benefits of rural environments — supporting mental well-being, community connection, and inclusive shared experiences.</p>
+        <p>From our animal shelter to our environmental stewardship programs, everything we do is guided by a single belief: that a more compassionate and sustainable future is possible when we work together.</p>
+        <a href="#mission" class="btn btn-earthy">Our Three Missions</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MISSION PILLARS -->
+  <section id="mission">
+    <div class="container">
+      <div class="section-header centered">
+        <p class="section-eyebrow">What We Stand For</p>
+        <h2>Our Three Core Missions</h2>
+        <p class="section-sub">Every program and initiative we run is guided by these three pillars.</p>
+      </div>
+      <div class="pillars">
+
+        <div class="pillar">
+          <div class="pillar-icon">&#9774;</div>
+          <h3>Peace &amp; Humanity</h3>
+          <p>We support community well-being by hosting inclusive events and retreats that bring people together, promote peaceful coexistence, and foster a sense of belonging for all.</p>
+        </div>
+
+        <div class="pillar">
+          <div class="pillar-icon">&#128004;</div>
+          <h3>Animal Protection</h3>
+          <p>We provide care, safety, and shelter for horses, cows, and other rescued or at-risk animals — with ongoing plans to expand our rescue and rehabilitation efforts over time.</p>
+        </div>
+
+        <div class="pillar">
+          <div class="pillar-icon">&#127807;</div>
+          <h3>Environmental Stewardship</h3>
+          <p>Through local education on sustainable farming and community tree-planting initiatives, we work to enhance ecological health and build long-term environmental sustainability.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMS -->
+  <section id="programs">
+    <div class="container">
+      <div class="section-header centered">
+        <p class="section-eyebrow">What We Do</p>
+        <h2>Our Programs</h2>
+      </div>
+      <div class="programs-grid">
+
+        <div class="program-card">
+          <!-- Replace program-retreats.jpg -->
+          <div class="program-img-wrap">
+            <img src="images/vlcsnap-2025-05-12-09h19m12s062~2.png" alt="Rural Retreats" />
+          </div>
+          <div class="program-body">
+            <h3>Rural Retreats</h3>
+            <p>Our retreats invite the public to unplug from city life and immerse themselves in the quiet rhythm of farm living. Designed to restore mental well-being and build genuine human connection.</p>
+          </div>
+        </div>
+
+        <div class="program-card">
+          <!-- Replace program-animals.jpg -->
+          <div class="program-img-wrap">
+            <img src="images/PXL_20250511_180252682.MP~2-EFFECTS.jpg" alt="Animal Shelter" />
+          </div>
+          <div class="program-body">
+            <h3>Animal Shelter &amp; Rescue</h3>
+            <p>Our shelter is a safe haven for horses, cows, and other animals in need. We provide ongoing care and a nurturing environment while expanding our rescue and rehabilitation capacity.</p>
+          </div>
+        </div>
+
+        <div class="program-card">
+          <!-- Replace program-environment.jpg -->
+          <div class="program-img-wrap">
+            <img src="images/vlcsnap-2025-05-15-12h46m12s887.png" alt="Environmental Programs" />
+          </div>
+          <div class="program-body">
+            <h3>Environmental Education</h3>
+            <p>We run community-led tree planting of flowering and fruit-bearing trees, paired with local education on sustainable farming practices to build lasting ecological awareness.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEOS -->
+  <section id="videos">
+    <div class="container">
+      <div class="section-header centered">
+        <p class="section-eyebrow">See It For Yourself</p>
+        <h2>The Farm in Motion</h2>
+        <p class="section-sub">There's no better way to feel what Govind Foundation is about than to see it.</p>
+      </div>
+      <div class="videos-grid">
+        <div class="video-wrap">
+          <video controls playsinline poster="images/vlcsnap-2025-05-15-13h01m33s464~2.png">
+            <source src="images/govind farm promo.mov" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <p class="video-caption">Govind Foundation — Farm Promo</p>
+        </div>
+        <div class="video-wrap">
+          <video controls playsinline poster="images/vlcsnap-2025-05-12-09h19m12s062~2.png">
+            <source src="images/PXL_20250607_211647912.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <p class="video-caption">Life at the Farm</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery">
+    <div class="container">
+      <div class="section-header centered">
+        <p class="section-eyebrow">Life at the Farm</p>
+        <h2>A Glimpse of Our World</h2>
+      </div>
+      <div class="gallery-grid">
+        <!-- Replace gallery-1.jpg through gallery-6.jpg with your cinematic photos -->
+        <div class="gallery-item tall"><img src="images/vlcsnap-2025-05-15-13h01m33s464~2.png" alt="Farm entrance" /></div>
+        <div class="gallery-item"><img src="images/vlcsnap-2025-05-12-09h19m12s062~2.png" alt="Aerial view" /></div>
+        <div class="gallery-item"><img src="images/PXL_20250511_180252682.MP~2-EFFECTS.jpg" alt="Animals" /></div>
+        <div class="gallery-item wide"><img src="images/vlcsnap-2025-05-15-12h46m12s887.png" alt="Creek and nature" /></div>
+        <div class="gallery-item"><img src="images/vlcsnap-2025-05-12-09h29m53s689~2.png" alt="Windmill and horses" /></div>
+        <div class="gallery-item"><img src="images/vlcsnap-2025-05-12-09h19m12s062~2.png" alt="The land" /></div>
+        <div class="gallery-item"><img src="images/vlcsnap-2025-05-12-09h25m07s344~2.png" alt="Trail through the trees" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GET INVOLVED / CONTACT -->
+  <section id="contact">
+    <div class="contact-bg">
+      <!-- Replace contact-bg.jpg with a wide cinematic photo -->
+      <img src="images/vlcsnap-2025-05-12-09h19m12s062~2.png" alt="Farm landscape" />
+      <div class="contact-overlay"></div>
+    </div>
+    <div class="container contact-content">
+      <p class="section-eyebrow light">Be Part of Something Meaningful</p>
+      <h2>Get Involved</h2>
+      <p class="contact-intro">Whether you want to volunteer, attend a retreat, support our animals, or donate — we'd love to hear from you. Every hand, every heart, and every dollar makes a difference at Govind Foundation.</p>
+      <div class="contact-ways">
+        <div class="contact-way">
+          <div class="contact-icon">&#128331;</div>
+          <h4>Volunteer</h4>
+          <p>Help care for animals, assist with programs, or lend your skills to the farm.</p>
+        </div>
+        <div class="contact-way">
+          <div class="contact-icon">&#127968;</div>
+          <h4>Visit &amp; Retreat</h4>
+          <p>Join one of our rural retreats and experience the restorative power of farm life.</p>
+        </div>
+        <div class="contact-way">
+          <div class="contact-icon">&#10084;</div>
+          <h4>Donate</h4>
+          <p>Your support directly funds animal care, retreat programs, and environmental work.</p>
+        </div>
+      </div>
+      <a href="mailto:info@govindfarms.com" class="btn btn-primary btn-lg">Reach Out to Us</a>
+      <div class="contact-address">
+        <span class="contact-icon">&#128205;</span>
+        <p>13418 Rices Crossing Road, Oregon House, CA</p>
+        <a href="https://maps.google.com/?q=13418+Rices+Crossing+Road+Oregon+House+CA" target="_blank" rel="noopener" class="map-link">Get Directions &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="images/govind_foundation.png" alt="Govind Foundation" class="footer-logo-img" />
+      </div>
+      <p class="footer-mission">Nurturing community, caring for animals, stewarding the earth.</p>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#mission">Mission</a>
+        <a href="#programs">Programs</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-address">13418 Rices Crossing Road, Oregon House, CA &nbsp;&middot;&nbsp; <a href="mailto:info@govindfarms.com">info@govindfarms.com</a></p>
+      <p class="footer-copy">&copy; 2025 Govind Foundation. All rights reserved. | 501(c)(3) Nonprofit</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
